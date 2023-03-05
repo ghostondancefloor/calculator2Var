@@ -1,0 +1,93 @@
+<!--Iddouch Ikram--> 
+<!DOCTYPE html>
+<head>
+    <title>TD4exo1</title>
+    <link href= "style.css"  rel= "stylesheet">
+    <script src="calculator.js" defer></script>
+</head>
+
+<body>
+    <h1>Calculatrice simple (2 variables)</h1>
+    <div>
+        <input id="resultat" type="text">
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <button onclick= "affichage('9')">9</button>
+                    </td>
+                    <td>
+                        <button onclick= "affichage('8')">8</button>
+                    </td>
+                    <td>
+                        <button onclick= "affichage('/')">/</button>
+                   </td>
+                </tr>
+                <tr>
+                   <td>
+                       <button onclick= "affichage('7')">7</button>
+                   </td>
+                   <td>
+                       <button onclick= "affichage('6')">6</button>
+                   </td>
+                   <td>
+                       <button onclick= "affichage('*')">x</button>
+                  </td>
+               </tr>
+               <tr>
+                   <td>
+                       <button onclick= "affichage('5')">5</button>
+                   </td>
+                   <td>
+                       <button onclick= "affichage('4')">4</button>
+                   </td>
+                   <td>
+                       <button onclick= "affichage('-')">-</button>
+                  </td>
+               </tr>
+               <tr>
+                   <td>
+                       <button onclick= "affichage('3')">3</button>
+                   </td>
+                   <td>
+                       <button onclick= "affichage('2')">2</button>
+                   </td>
+                   <td>
+                       <button onclick= "affichage('+')">+</button>
+                  </td>
+               </tr>
+               <tr>
+                   <td>
+                       <button onclick= "affichage('1')">1</button>
+                   </td>
+                   <td>
+                       <button onclick= "affichage('0')">0</button>
+                   </td>
+                   <td>
+                       <button onclick= "affichage('.')">.</button>
+                  </td>
+               </tr>
+               <tr>
+                   <td>
+                       <button  id="log" onclick= "affichage('log')">log</button>
+                   </td>
+                   <td>
+                       <button onclick= "affichage('sqrt')">sqrt</button>
+                   </td>
+                   <td>
+                       <button onclick= "affichage('pow')">pow</button>
+                  </td>
+               </tr>
+               <tr>
+                   <td colspan="2">
+                       <button class="on" onclick= "effacer()">ON/C</button>
+                   </td>
+                   <td>
+                       <button onclick= "egal()">=</button>
+                  </td>
+               </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>

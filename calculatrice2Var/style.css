@@ -1,0 +1,37 @@
+div{
+    border: solid black;
+    width:315px;
+    padding:15px 15px;
+    margin-left: 450px;
+}
+h1{
+    color : #F5C5C5;
+    text-shadow: 1px 1px 1px red;
+    margin-left: 430px;
+}
+button{
+    width:100px;
+    background-color: rgb(252, 213, 219);
+    border : rgb(212, 110, 110);
+    padding: 15px 30px;
+    text-align: center;
+    border-radius:5px;
+}
+input[type=text]{
+    width:300px;
+    height:50px;
+    text-align: right;
+}
+.on{
+    width:207px;
+}
+#resultat{
+    background-color:#FFFFFF; 
+	width: 300px; 
+	height: 74px; 
+	font-size: 30px; 
+	text-align:right; 
+	padding:3px; 
+	border:1px solid #F5C5C5; 
+	border-radius:5px;
+}
